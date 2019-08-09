@@ -33,7 +33,7 @@ def won?(board)
 end
 
 def draw?(board)
-  !won?(board) && !board.include?("-")
+  !won?(board) && !board.include?(" ")
   
 end
 
